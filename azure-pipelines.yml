@@ -11,7 +11,7 @@ resources:
 variables:
   # Container registry service connection established during pipeline creation
   dockerRegistryServiceConnection: '35907522-2111-405c-b0e8-febb7f87c8d9'
-  imageRepository: 'yogeecicdpipelinetrainscheduledockerdeploy'
+  imageRepository: 'yogee19cicdpipelinetrainscheduledockerdeploy'
   containerRegistry: 'yogee19acr.azurecr.io'
   dockerfilePath: '$(Build.SourcesDirectory)/Dockerfile'
   tag: '$(Build.BuildId)'
